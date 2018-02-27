@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textViewStyle">@style/DefaultText</item>
+    </style>
+
+    <style name="DefaultText" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <!-- Attributes of RobotoTextView -->
+        <item name="robotoFontFamily">roboto</item>
+        <item name="robotoTextWeight">normal</item>
+        <item name="robotoTextStyle">normal</item>
+    </style>
+
+    <style name="DialerButton" parent="Widget.AppCompat.Button">
+        <!-- Attributes of RobotoButton -->
+        <item name="robotoFontFamily">roboto</item>
+        <item name="robotoTextWeight">thin</item>
+        <item name="robotoTextStyle">italic</item>
+
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dialer_text_size</item>
+    </style>
+
+</resources>
